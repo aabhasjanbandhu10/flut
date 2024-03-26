@@ -12,7 +12,7 @@ if ('serviceWorker' in navigator) {
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
 '/',
-'studentform.html',
+'index.html',
 ];
 self.addEventListener('install', function (event) {
     // Perform install steps
